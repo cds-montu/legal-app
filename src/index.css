@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.auto-draft-container {
+  width: 700px;
+  height: 390px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background-color: rgb(248, 248, 226);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.step.active {
+  background: #007bff;
+  color: white;
+}
+
+.file-upload-section {
+  margin-bottom: 20px;
+}
+
+.file-upload-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  box-shadow: 10px;
+  background-color:  rgb(248, 248, 226);
+}
+
+.file-upload-input {
+  display: none;
+}
+
+.file-drag-drop-area {
+  width: 90%;
+  padding: 10px;
+  margin-left: 3%;
+  border: 2px dashed #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-info {
+  font-size: 12px;
+}
+
+.next-button {
+  width: 15%;
+  padding: 10px;
+  
+  background-color: #688cb2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right; /* This moves the button to the right */
+}
+
+
+.warning-text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: red;
+  text-align: center;
 }
