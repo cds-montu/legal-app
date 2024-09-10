@@ -38,7 +38,7 @@
 } */
 .auto-draft-container {
   width: 700px;
-  height: 340px;
+  height: fit-content;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   padding: 1rem;
@@ -62,7 +62,7 @@
 }
 
 .step.active {
-  background: #007bff;
+  background: #212121;
   color: white;
 }
 

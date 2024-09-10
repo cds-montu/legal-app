@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css'; 
-import AutoDraft from './Components/AutoDraft';
+import Stepper from './Components/autodraftStepper/Stepper';
 
 
 function App() {
   return (
     <div className="App">
-      <AutoDraft/>
+      <Stepper />
     </div>
   );
 }
