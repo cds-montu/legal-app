@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css'; 
-import Stepper from './Components/autodraftStepper/Stepper';
+import Navbar from './Components/navigationBar/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <Stepper />
+      {/* <Stepper /> */}
+      <Navbar/>
     </div>
   );
 }
